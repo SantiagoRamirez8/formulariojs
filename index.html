@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio responsivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script  cript type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <section id="contacto">
+        <h4>Contacto</h4>
+        <form id="contact-form" action="#">
+            <div class="datos-form">
+                <div class="nombres">
+                    <label  for="nombre">Nombre</label>
+                    <input  type="text" name="nombre" id="userName" placeholder="Nombre">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="Email" placeholder="Email">
+                </div>
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensage" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <button type="submit" class="boton-saber-mas">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section> 
+    <script src="form.js"></script>
+</body>
+</html>
+
